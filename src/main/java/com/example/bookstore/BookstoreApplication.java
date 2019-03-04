@@ -28,8 +28,8 @@ public static void main(String[] args) {
 			crepository.save(new Category("Fantasy"));
 			crepository.save(new Category("Drama"));
 			
-			brepository.save(new Book("A Farewell to Arms", "Ernest Hemingway","1232323-2", 0, null, crepository.findByName("Novel").get(0)));
-			brepository.save(new Book("Animal Farm", "George Orwell", "2212343-5", 0, null, crepository.findByName("Novel").get(0)));
+			brepository.save(new Book("A Farewell to Arms", "Ernest Hemingway","1232323-2", 1929, null, crepository.findByName("Novel").get(0)));
+			brepository.save(new Book("Animal Farm", "George Orwell", "2212343-5", 1945, null, crepository.findByName("Novel").get(0)));
 	
 		};
 	}
